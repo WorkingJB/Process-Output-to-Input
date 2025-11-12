@@ -1,0 +1,276 @@
+{
+    "processJson": {
+        "Id": 1510,
+        "UniqueId": "d4d28c92-9e48-44aa-a146-ee51403be621",
+        "Name": "First Publishe",
+        "StateId": 1,
+        "Objective": "Test",
+        "OwnerId": 1053,
+        "ExpertId": 1054,
+        "GroupId": 655,
+        "GroupUniqueId": "92d1e6ca-0534-4273-8124-7f838a1e335a",
+        "UseDynamicMapperImage": true,
+        "ReferenceNo": "",
+        "IsTextModeOn": false,
+        "IsPolicyModeOn": false,
+        "Background": "",
+        "Expert": "Jon Butler",
+        "Owner": "Jonathan Butler",
+        "Group": "Library & History Services",
+        "State": "Active",
+        "AnnualVolume": null,
+        "ProcessProcedures": {
+            "Activity": [
+                {
+                    "Id": 13314,
+                    "UniqueId": "95df55bb-3b8f-46d4-8d62-90f9ad412b18",
+                    "ParallelGroupingRef": null,
+                    "LinkedDecisionUniqueId": null,
+                    "Number": "1.0",
+                    "Order": 0,
+                    "ProcessProcedureType": 7,
+                    "IsShared": false,
+                    "Text": "Test",
+                    "Attachment": null,
+                    "DocumentId": null,
+                    "DocumentUniqueId": null,
+                    "NetworkFileName": null,
+                    "DocumentLocationTypeId": 0,
+                    "IsAutomationRequested": null,
+                    "LinkedProcessId": null,
+                    "EmbeddedLinkedProcessId": null,
+                    "LinkedProcessUniqueId": null,
+                    "LinkedProcessStateId": null,
+                    "LinkedProcessName": null,
+                    "LinkedProcessDisplayName": null,
+                    "LinkedProcessGroupId": null,
+                    "LinkedProcessGroupName": null,
+                    "LinkedProcessGroupUniqueId": null,
+                    "AssociatedWorkflowIds": null,
+                    "WorkflowId": null,
+                    "DecisionLinkType": 0,
+                    "DecisionLinkIsYes": false,
+                    "ChildProcessProcedures": {
+                        "Task": [
+                            {
+                                "Id": 13318,
+                                "UniqueId": "acd5a72a-347f-41c1-90f5-7c5a996b41ba",
+                                "ParallelGroupingRef": null,
+                                "LinkedDecisionUniqueId": null,
+                                "Number": "1.0.1",
+                                "Order": 1,
+                                "ProcessProcedureType": 8,
+                                "IsShared": false,
+                                "Text": "Test 1",
+                                "Attachment": null,
+                                "DocumentId": null,
+                                "DocumentUniqueId": null,
+                                "NetworkFileName": null,
+                                "DocumentLocationTypeId": 0,
+                                "IsAutomationRequested": null,
+                                "LinkedProcessId": null,
+                                "EmbeddedLinkedProcessId": null,
+                                "LinkedProcessUniqueId": null,
+                                "LinkedProcessStateId": null,
+                                "LinkedProcessName": null,
+                                "LinkedProcessDisplayName": null,
+                                "LinkedProcessGroupId": null,
+                                "LinkedProcessGroupName": null,
+                                "LinkedProcessGroupUniqueId": null,
+                                "AssociatedWorkflowIds": null,
+                                "WorkflowId": null,
+                                "DecisionLinkType": 0,
+                                "DecisionLinkIsYes": false,
+                                "ChildProcessProcedures": null,
+                                "Ownerships": null,
+                                "ProcessProcedureTimeframe": null,
+                                "RiskControls": null
+                            }
+                        ],
+                        "Note": null,
+                        "Information": null,
+                        "Form": null,
+                        "Guide": null,
+                        "Image": null,
+                        "Policy": null,
+                        "Training": null,
+                        "Video": null,
+                        "WebLink": null
+                    },
+                    "Ownerships": {
+                        "Role": [
+                            {
+                                "Id": 1074,
+                                "Name": " Group Senior Manager (GSM)",
+                                "IsVirtual": false,
+                                "Order": null
+                            }
+                        ],
+                        "DecisionOrphanRole": null,
+                        "Tag": [
+                            {
+                                "Id": 84,
+                                "Name": "CBS",
+                                "IsDisassociated": false,
+                                "TagFamilyId": 3,
+                                "TagFamilyName": "System",
+                                "IsSwimlaneParticipant": true
+                            }
+                        ],
+                        "DecisionOrphanTag": null
+                    },
+                    "ProcessProcedureTimeframe": {
+                        "TimeframeTypeId": -1,
+                        "TimeframeType": "",
+                        "CycleTimeDisplay": "-",
+                        "LeadTimeDisplay": "-",
+                        "ProportionOfTimeInTotal": 1.0,
+                        "ProcessProcedureCost": null,
+                        "AverageCostPerHour": null
+                    },
+                    "RiskControls": {
+                        "RiskControl": []
+                    }
+                }
+            ],
+            "Decision": [],
+            "ProcessLink": [],
+            "OrphanProcessLink": [],
+            "ProcessGroupLink": [],
+            "OrphanProcessGroupLink": [],
+            "EmbeddedProcessLink": [],
+            "OrphanEmbeddedProcessLink": []
+        },
+        "SearchKeywords": null,
+        "ProcessTags": null,
+        "Inputs": null,
+        "Outputs": null,
+        "Triggers": null,
+        "Targets": null,
+        "Stakeholders": null,
+        "LinkedStakeholders": null,
+        "SystemStakeholders": {
+            "User": [
+                {
+                    "Id": 1095,
+                    "Name": "Gali Wohlstadter",
+                    "Order": null
+                }
+            ],
+            "Role": [],
+            "Responsibility": null
+        },
+        "ApprovalStakeholders": {
+            "User": [],
+            "Role": [],
+            "Responsibility": null
+        },
+        "PublishingStakeholders": {
+            "User": [],
+            "Role": [],
+            "Responsibility": null
+        },
+        "DraftWorkflowId": null,
+        "AutomationRequestedByUserId": null,
+        "PublishedWorkflowId": null,
+        "RiskManagers": {
+            "User": [],
+            "Role": [],
+            "Responsibility": null
+        },
+        "Approvals": null,
+        "ReplacementMapImage": null,
+        "Version": "2.0",
+        "PromappVersion": "0.0.0.0",
+        "ProcessRevisionEditId": 8282,
+        "ProcessRevisionStateId": 3,
+        "ProcessGroupItems": {
+            "ProcessGroup": {
+                "Id": 655,
+                "UniqueId": "92d1e6ca-0534-4273-8124-7f838a1e335a",
+                "Name": "Library & History Services"
+            },
+            "ProcessGroupShortcut": null
+        },
+        "Timeframe": {
+            "TotalCycleTimeDisplay": "-",
+            "TotalLeadTimeDisplay": "-",
+            "ProcessTotalCost": 0.0,
+            "TimeframeHoursPerDay": null,
+            "TimeframeDaysPerWeek": null,
+            "TimeframeVariance": null
+        },
+        "AutomationSpecialists": {
+            "User": [],
+            "Role": [],
+            "Responsibility": null
+        },
+        "ProcessApproval": {
+            "Published": {
+                "ProcessRevisionId": 5964,
+                "PublishedDate": "2025-11-08T16:23:32.3946953Z",
+                "PublisherId": 1053,
+                "PublisherName": null,
+                "IsPublishNowUsed": false
+            },
+            "Approved": {}
+        },
+        "Metadata": {
+            "ProcessXmlGenerationOptions": {
+                "StubProcesses": false
+            },
+            "MetadataItem": [
+                {
+                    "Name": "GenerationDate",
+                    "Value": "2025-11-08T16:23:32.6291105Z"
+                },
+                {
+                    "Name": "CachedOn",
+                    "Value": "2025-11-08T16:23:32.6291105Z"
+                }
+            ]
+        }
+    },
+    "processActions": {
+        "CanPublish": false,
+        "CanPublishAfterEdit": false,
+        "CanSubmitForApproval": false,
+        "CanSubmitForApprovalAfterEdit": true,
+        "CanQuickSave": true,
+        "CanArchive": false,
+        "CanSelectPolicyMode": true,
+        "CanPublishWithoutComment": true,
+        "CanSuppressPublishChangeNotification": true,
+        "CanSave": true,
+        "CanSeeAutomation": true,
+        "CanEditAutomation": true,
+        "CanSeeSystemTags": true,
+        "CanSeeRisks": true,
+        "CanEditProcessApprovers": true,
+        "CanAddDecision": true,
+        "CanEditTimeframes": true,
+        "CanEditCosts": true,
+        "CanViewUsersInRole": true
+    },
+    "processWarnings": [],
+    "configuration": {
+        "CustomCycleTimeLabel": "Active Time",
+        "CustomLeadTimeLabel": "Wait Time",
+        "CustomStandardVariationLabel": "STANDARD",
+        "NintexWorkflowIntegrationBaseUrl": "https://dmo-wus-nwi.promapp.io",
+        "DocumentLinkUrlRegex": "",
+        "AutomatedSystemTagId": 49,
+        "IsProcessReferenceNoEnabled": true,
+        "PawModeEnabled": true,
+        "ResilienceApiCallDelaySec": 3,
+        "ResilienceApiCallAttemptsCount": 5,
+        "IsIndexSearchForProcessCreationEnabled": true,
+        "IsProcessProcedureReactEnabled": true,
+        "IsProcessMapReactEnabled": true,
+        "EnableProcessLeanTags": true,
+        "CustomLeanTagLabel": "Processes"
+    },
+    "variationSetData": null,
+    "sharedProceduresSuggestedChanges": null,
+    "changedSharedProcessProcedures": null
+}

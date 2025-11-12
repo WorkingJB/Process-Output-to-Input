@@ -1,0 +1,1040 @@
+<!doctype HTML>
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]> <html class="no-js" lang="en"><![endif]-->
+<html>
+
+<head>
+
+    <link href="/ClientApp/packages/promapp-client/Content/dist/vendor.bundle.a35a5925ec1771ef2b3f.css?cached=True"
+        type="text/css" rel="stylesheet" />
+    <link
+        href="/ClientApp/packages/promapp-client/Content/dist/flexible-nintex.bundle.11806f797e41f114d2d4.css?cached=True"
+        type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="/ClientApp/packages/promapp-client/Content/css/nx-spinner.css" type="text/css" rel="stylesheet" />
+
+
+
+
+    <!-- Inside head tag of templates -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Home, Nintex Process Manager</title>
+    <meta name="description"
+        content="Business process management (BPM) tool to help change, incident and risk management. Improve business processes with proven process mapping software.">
+    <meta name="application-name" content="Nintex Process Manager" />
+    <meta name="author" content="Nintex">
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Removed to prevent site from being placed in "app" mmode in Mobile Safari <meta name="apple-mobile-web-app-capable" content="yes" />-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- Microsoft Application Tile Favicon -->
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage"
+        content="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo"
+        content="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo"
+        content="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo"
+        content="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo"
+        content="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/mstile-310x310.png" />
+
+
+    <meta name="msapplication-config" content="none" />
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/favicon.ico?v=4" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/apple-touch-icon-152x152.png" />
+
+    <link rel="icon" type="image/png"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/favicon-196x196.png"
+        sizes="196x196" />
+    <link rel="icon" type="image/png"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/favicon-96x96.png"
+        sizes="96x96" />
+    <link rel="icon" type="image/png"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/favicon-32x32.png"
+        sizes="32x32" />
+    <link rel="icon" type="image/png"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/favicon-16x16.png"
+        sizes="16x16" />
+    <link rel="icon" type="image/png"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/favicon-128.png"
+        sizes="128x128" />
+
+    <script>
+        var process = { env: { NODE_ENV: "production" } };
+        if (window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {
+            window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () { };
+        }
+    </script>
+    <script src="/ClientApp/packages/promapp-client/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/ClientApp/packages/promapp-client/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="/ClientApp/packages/promapp-client/Scripts/Vendor/URI.js"></script>
+    <script src=""></script>
+
+    <script src="/ClientApp/packages/promapp-client/Scripts/dist/head.bundle.95c56c27f4c3dcc18b6c.js?cached=True">
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setUserCultureInfo("en");
+            Localiser.initMessages();
+        });
+    </script>
+
+    <script type="text/javascript">
+        var applicationRootUrl = 'https://demo.promapp.com/';
+    var tenantRootUrl = 'https://demo.promapp.com/93555a16ceb24f139a6e8a40618d3f8b/';
+    var tenant = "93555a16ceb24f139a6e8a40618d3f8b";
+    </script>
+
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) && (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length && (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a < n.length; a++) { var i = n[a].split("="); 2 === i.length && (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n && !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t && m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e && "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, n }(); y.ld < 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] && !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u && u(e, t, n, a, i); return !0 !== r && m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit && y.onInit(n) } (T[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", crossOrigin: "anonymous", cfg: { connectionString: "InstrumentationKey=b593730d-1b50-406a-8b92-dd2e81e9c494;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/" }
+        });
+    </script>
+
+
+    <script
+        src="https://demo.promapp.com/ClientApp/packages/promapp-client/node_modules/@webcomponents/custom-elements/custom-elements.min.js">
+    </script>
+    <script
+        src="https://demo.promapp.com/ClientApp/packages/promapp-client/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js">
+    </script>
+
+    <script src="https://embedded-demo.promapp.com//app.js"></script>
+
+    <!-- App store -->
+    <meta name="apple-itunes-app" content="app-id=1580655608">
+    <!-- Play Store -->
+    <meta name="google-play-app" content="app-id=com.nintex.app">
+    <link rel="stylesheet" type="text/css"
+        href="/ClientApp/packages/promapp-client/node_modules/smart-app-banner/dist/smart-app-banner.css">
+    <link rel="android-touch-icon"
+        href="/ClientApp/packages/promapp-client/Content/images/interface/ico/favicon/mstile-150x150.png" />
+    <script type="text/javascript"
+        src="/ClientApp/packages/promapp-client/node_modules/smart-app-banner/dist/smart-app-banner.js"></script>
+    <script>
+        if (navigator.userAgent.indexOf("Android") != -1) {
+            new SmartBanner({
+                daysHidden: 15, // days to hide banner after close button is clicked (defaults to 15)
+                daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+                appStoreLanguage: 'us', // language code for the App Store (defaults to user's browser language)
+                title: 'Process Manager',
+                author: 'Nintex Mobile Business',
+                button: 'OPEN',
+                force: 'android'
+            });
+        }
+    </script>
+
+
+</head>
+
+<body style="z-index: 0">
+
+    <script type="text/javascript"
+        src="https://static.nintex.io/pmp/pmp-shell/latest/index.bundle.js?t=638985079462910301"></script>
+
+    <div id="shell-root" style="position: absolute; top: 0; left: 0; height: 0; width: 0; overflow: hidden;"
+        data-gateway-url="https://demo.promapp.com/93555a16ceb24f139a6e8a40618d3f8b"
+        data-base-path="/93555a16ceb24f139a6e8a40618d3f8b"
+        data-registration-url="https://static.nintex.io/pmp/pmp-registrations/latest.json"></div>
+
+
+    <!-- header -->
+    <header id="banner" class="banner" role="banner">
+        <div class="skip-nav">
+            <a class="skip-link" href="#content">Skip to main content</a>
+        </div>
+
+        <div class="nav-account clearfix">
+            <div class="nav-logo left">
+                <a class="nav-user-logo logo-nintex-header"
+                    href="https://demo.promapp.com/93555a16ceb24f139a6e8a40618d3f8b"></a>
+            </div>
+            <nav class="right" role="navigation">
+                <banner-element />
+                <script
+                    src="/ClientApp/packages/promapp-client/Scripts/dist/banner.bundle.c172efb5c2e57e231ebf.js?cached=True"
+                    defer></script>
+
+            </nav>
+        </div>
+        <div class="nav-browse clearfix clear">
+            <nav role="navigation">
+                <ul class="nav-sections list-float">
+                    <li>
+                        <span class="btn-icon btn-nav nav-prev hot disabled" style="display: none">
+                    <span class="label">Back</span><span class="caret"></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="btn-icon btn-nav nav-next hot disabled" style="display: none">
+                    <span class="label">Next</span><span class="caret"></span>
+                        </span>
+                    </li>
+                    <li class="rel">
+                        <a class="btn-nav nav-home is-selected" href='/93555a16ceb24f139a6e8a40618d3f8b' rel="tooltip"
+                            data-original-title="Return to Process Manager Home Page">Home</a>
+                    </li>
+                    <li class="drop-group jqry-nav-processes hk-nav-processes">
+                        <a id="banner-processes-button" class="drop-btn btn-nav"
+                            href='/93555a16ceb24f139a6e8a40618d3f8b/Process'>
+                            Processes
+                            <span class="drop-caret"></span>
+                        </a>
+                        <div class="drop-menu">
+                            <ul class="link-list jqry-process-menu">
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/Group/919ecb42-7ecb-42ad-9830-fb7f520181ea">All
+                                        Processes<span class="caret"></span></a></li>
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/List/ProcessesIAmIn">Processes
+                                        I&#39;m in<span class="caret"></span></a></li>
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/List/ProcessesIOwn">Processes I
+                                        own<span class="caret"></span></a></li>
+                                <li><a class="hk-menu-item list-AllProcessModels"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/Process"
+                                        onclick="PromappNavigator.PublishNavigatorItem(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/ProcessModeler/Index&#39;,&#39;&#39;, {&quot;pageTitle&quot;:&quot;Process Models&quot;}, null, null, event)">Process
+                                        Models<span class="caret"></span></a></li>
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/List/Favourites">Favourites<span class="caret"></span></a>
+                                </li>
+                                <li><a class="hk-menu-item"
+                                        data-original-title="An inventory of checklists. A checklist can be created from a process to coordinate participants completing each step."
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/List/Checklists"
+                                        rel="tooltip">Checklists<span class="caret"></span></a></li>
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Process/List/Archived">Archive<span class="caret"></span></a>
+                                </li>
+                                <li class="drop-more hk-drop-more"><a class="drop-more-link hk-dropdownlist"
+                                        data-menu-for="Recently Viewed"
+                                        href="#"><label>Recently Viewed</label><span class="drop-caret"></span></a>
+                                    <div class="drop-submenu drop-submenu-right">
+                                        <ul
+                                            class="with-icons jqry-menu-recentlyviewed hk-recently-viewed-list link-list">
+                                            <li><span class="hk-menu-item disabled bold mar-left-5">Loading...<span class="disabled caret"></span></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="drop-more hk-drop-more"><a class="with-icon drop-more-link hk-dropdownlist"
+                                        data-menu-for="New Process"
+                                        href="#"><span class="ind-icon ind-add-file"></span><label>New Process</label><span class="drop-caret"></span></a>
+                                    <div class="drop-submenu drop-submenu-right">
+                                        <ul class="with-icons link-list">
+                                            <li><a class="hk-menu-item" href="#"
+                                                    onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Process/ProposedProcess/ProposeProcess&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;Suggest a Process: Select Group&quot;,&quot;pageTitle&quot;:&quot;Suggest a process&quot;}, null, event)">Suggest
+                                                    a process<span class="ind-icon ind-add-suggested caret"></span></a>
+                                            </li>
+                                            <li><a class="hk-menu-item" href="#"
+                                                    onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Process/Edit/CreateProcess&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;New Process: Select Group&quot;,&quot;pageTitle&quot;:&quot;Create a process&quot;}, null, event)">Create
+                                                    a process<span class="ind-activity ind-process caret"></span></a>
+                                            </li>
+                                            <li>
+                                                <eb-embed-process class="hk-menu-item">
+                                                    <!-- {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5MzU1NWExNmNlYjI0ZjEzOWE2ZThhNDA2MThkM2Y4YjEwNTMiLCJuYmYiOjE3NjI5MTExNDYsImV4cCI6MTc2MjkxMTgwNiwiaWF0IjoxNzYyOTExMTQ2LCJUZW5hbnROYW1lIjoiOTM1NTVhMTZjZWIyNGYxMzlhNmU4YTQwNjE4ZDNmOGIiLCJUZW5hbnRVbmlxdWVJZCI6IjkwNDBmNmQwLWQzNTktNGFmMC1iNzA0LTUxNGU1NzM1OTJjNSIsIlVzZXJJZCI6MTA1MywiVXNlclBlcm1pc3Npb24iOjIsIlRlbmFudFJlZ2lvbiI6ImRlbW8iLCJTY29wZSI6ImVtYmVkZGVkIn0.Qh-Cl4A6jvBbDdVxJKJq35ITlvJDTVkxhc8m1-QzRag","tokenRoute":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Api/GetEmbeddedUserToken","userPermission":2,"dialogHoldingElement":"banner","selectProcessGroupFuncName":"EmbeddedProcessService.selectEmbeddedProcessGroup","embeddedByUserFullName":"Jonathan Butler","embeddedByUserAvatarUrl":"/93555a16ceb24f139a6e8a40618d3f8b/Profile/Avatar.aspx?id=1","caption":"Embed a process"} -->
+                                                </eb-embed-process>
+                                            </li>
+                                            <li><a class="hk-menu-item" href="#"
+                                                    onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/ProcessModeler/CreateProcessModel&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;New process model: Select group&quot;,&quot;pageTitle&quot;:&quot;Create a process model&quot;}, null, event)">Create
+                                                    a process
+                                                    model<span class="ind-activity ind-process caret"></span><span class="hk-helpMenuHeader"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="drop-group">
+                        <a id="banner-documents-button" class="drop-btn btn-nav"
+                            href='/93555a16ceb24f139a6e8a40618d3f8b/Documents'>
+                            Documents
+                            <span class="drop-caret"></span>
+                        </a>
+                        <div class="drop-menu">
+                            <ul class="link-list">
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Documents?ProcessGroupUniqueId=919ecb42-7ecb-42ad-9830-fb7f520181ea">All
+                                        Documents<span class="caret"></span></a></li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Documents?ListType=DocumentsIOwn&amp;clear=False">Documents
+                                        I own<span class="caret"></span></a></li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Documents?ListType=Favourites&amp;clear=False">Favourites<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Documents?ListType=Archived&amp;clear=False">Archived<span class="caret"></span></a>
+                                </li>
+                            </ul>
+                            <div class="btn-holder">
+                                <a class="btn-tool btn-text-icon tool-add-doc" href="#"
+                                    onclick="window.dispatchEvent(new CustomEvent(&quot;pmpAddDocumentsRenderIntent&quot;))">Add
+                                    a new document<span class="caret"></span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="drop-group rel">
+                        <a class="drop-btn btn-nav" href='/93555a16ceb24f139a6e8a40618d3f8b/Automation'>
+                            Automation
+                            <span class="drop-caret"></span>
+                        </a>
+                        <div class="drop-menu">
+                            <ul class="link-list">
+                                <li><a href="/93555a16ceb24f139a6e8a40618d3f8b/Automation?ListType=WorkflowList">Workflow
+                                        list<span class="caret"></span></a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="rel">
+
+
+                        <a id="banner-systems-button" class="drop-btn btn-nav"
+                            href='/93555a16ceb24f139a6e8a40618d3f8b/Admin/Systems/List' style="padding-right: 15px;">
+                            Systems
+                        </a>
+
+
+                    </li>
+                    <li class="drop-group rel">
+                        <a class="drop-btn btn-nav" href='/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChanges'>
+                            My Dashboard
+                            <span class="ind-number ind-number-critical abs hidden jqry-dashboardtotal-ind" action-url="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/Home/Indicator">
+                        <span class="ind-number-value"></span>
+                            </span>
+                            <span class="drop-caret"></span>
+                        </a>
+                        <div class="drop-menu">
+                            <ul class="link-list">
+                                <li><a href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/Governance">Process
+                                        Manager<span class="caret"></span></a></li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChanges">Changes<span class="caret"></span></a>
+                                </li>
+                                <li><a href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChecklists">Checklist
+                                        Activities<span class="caret"></span></a></li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyReviews">Reviews<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyFeedback">Feedback<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyRisks">Risks<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyIncidents">Wombats<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyTraining">Training<span class="caret"></span></a>
+                                </li>
+                                <li><a href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyTodos">Todo
+                                        Items<span class="caret"></span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="drop-group rel">
+                        <a class="drop-btn btn-nav" href='/93555a16ceb24f139a6e8a40618d3f8b/Risk'>
+                            Risks
+                            <span class="drop-caret"></span>
+                        </a>
+                        <div class="drop-menu">
+                            <ul class="link-list">
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Risk">Summary<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Risk/Register">Register<span class="caret"></span></a>
+                                </li>
+                                <li><a href="/93555a16ceb24f139a6e8a40618d3f8b/Risk/Audit">Audit
+                                        History<span class="caret"></span></a></li>
+                            </ul>
+                            <div class="btn-holder">
+                                <a class="btn-tool btn-text-icon tool-add-doc" href="#"
+                                    onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Risk/Register/Create&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;New Risk&quot;,&quot;pageTitle&quot;:&quot;Create a new risk&quot;}, null, event)">Create
+                                    a new risk<span class="caret"></span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="drop-group rel">
+                        <a class="drop-btn btn-nav" href='/93555a16ceb24f139a6e8a40618d3f8b/Incident'>
+                            Improvements
+                            <span class="drop-caret"></span>
+                        </a>
+                        <div class="drop-menu">
+                            <ul class="link-list">
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Incident">Summary<span class="caret"></span></a>
+                                </li>
+                                <li><a
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Incident/Register">Register<span class="caret"></span></a>
+                                </li>
+                            </ul>
+                            <div class="btn-holder">
+                                <a class="btn-tool btn-text-icon tool-add-doc" href="#"
+                                    onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Incident/Home/IncidentTypeSelection&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;Report...&quot;,&quot;onDialogLoaded&quot;:function() { PromappDialog.Init(&#39;.jqry-incident-type-select&#39;, { width: 595, showButtons: false }) }}, null, event)">Report
+                                    Incident/In...<span class="caret"></span></a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="drop-group rel">
+
+
+                        <a class="drop-btn btn-nav hk-training-btn"
+                            href='/93555a16ceb24f139a6e8a40618d3f8b/Training/Units/'>
+                            Training
+                            <span class="drop-caret"></span>
+                        </a>
+
+
+                        <div class="drop-menu">
+                            <ul class="link-list">
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Training/Inductions">Onboarding<span class="caret"></span></a>
+                                </li>
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Training/Units">Training
+                                        Units<span class="caret"></span></a></li>
+                                <li><a class="hk-menu-item"
+                                        href="/93555a16ceb24f139a6e8a40618d3f8b/Training/Competencies">Competencies<span class="caret"></span></a>
+                                </li>
+                                <li class="drop-more hk-drop-more"><a class="with-icon drop-more-link hk-dropdownlist"
+                                        data-menu-for="New"
+                                        href="#"><span class="ind-icon hk-create-buttons ind-add-file"></span><label>New</label><span class="drop-caret"></span></a>
+                                    <div class="drop-submenu drop-submenu-right">
+                                        <ul class="link-list">
+                                            <li><a class="hk-menu-item hk-create-starter-induction" href="#"
+                                                    onclick="PromappRouter.PublishReactDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Training/Inductions/Create?asDialog=True&#39;,&#39;#dialog-holder&#39;, {&quot;hasLoader&quot;:false,&quot;pageTitle&quot;:&quot;Onboarding plan for new starter&quot;}, null, event)">Onboarding
+                                                    plan for new starter<span class="caret"></span></a></li>
+                                            <li><a class="hk-menu-item hk-create-training"
+                                                    href="/93555a16ceb24f139a6e8a40618d3f8b/Training/Units/Create">Training
+                                                    Unit<span class="caret"></span></a></li>
+                                            <li><a class="hk-menu-item hk-create-competency"
+                                                    href="/93555a16ceb24f139a6e8a40618d3f8b/Training/Competencies/Create">Competency
+                                                    Unit<span class="caret"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="site-search search right" role="search">
+                <input id="site-search" name="term" class="search-text left" type="search" data-test="search-box" placeholder="Search processes and documents" />
+                <input id="banner-site-search-submit-button" class="search-btn ir left" data-test="search-button" value="search" />
+            </div>
+        </div>
+
+        <div id="pmp-full-search-mfe"></div>
+
+        <script type="text/javascript">
+            //TO-DO: AB-380512 remove during feature flag clean up once the EnableSearchFilterPanel flag is retired
+    window['EnableSearchFilterPanel'] = true;
+
+    //TO-DO: AB-385741 remove during feature flag clean up once the EnableAdditionalSearchFilters flag is retired
+    window['EnableAdditionalSearchFilters'] = true;
+
+    // TO-DO: AB-389568 remove during feature flag clean up along with all other new search related flag cleanup
+    window["EnableFullSearchMFE"] = true;
+
+    // TO-DO: AB-425439 Remove EnableTrainingTasksAbstractions feature flag
+    window["EnableTrainingTaskAbstractions"] = false;
+
+    var searchProps =
+    {
+        noresultsimagesrc: "/ClientApp/packages/promapp-client/Content/Images/Content/placeholders/not-found-placeholder.png",
+        indexedSearchEnabled: true,
+        searchIndexVersionHeader: '2.0'
+    };
+
+    var searchRoutes = {
+        getGroups: "/93555a16ceb24f139a6e8a40618d3f8b/Lookup/GetGroups.aspx",
+        search:'https://dmo-wus-sch.promapp.io/fullsearch',
+        quickSearch: 'https://dmo-wus-sch.promapp.io/quicksearch',
+        favouriteSearch: "/93555a16ceb24f139a6e8a40618d3f8b/Favourite/Search.aspx",
+        getDocumentTypes: "/93555a16ceb24f139a6e8a40618d3f8b/Documents/View/GetDocumentTypes",
+        toggleProcessFavourite: "/93555a16ceb24f139a6e8a40618d3f8b/Process/Edit/ToggleFavourite",
+        toggleDocumentFavourite: "/93555a16ceb24f139a6e8a40618d3f8b/Documents/Edit/ToggleFavourite",
+        getDocumentEditDetails: "/93555a16ceb24f139a6e8a40618d3f8b/Documents/Edit/ReactEditItem",
+        getIndexedSearchTypes: '/93555a16ceb24f139a6e8a40618d3f8b/Search/GetIndexedSearchTypes.aspx'
+    }
+
+    $(function () {
+        if (Banner) {
+            Banner.init("/93555a16ceb24f139a6e8a40618d3f8b/Process/Navigation/RecentlyViewed",
+                {
+                    autocomplete: '/93555a16ceb24f139a6e8a40618d3f8b/Search/AutoComplete.aspx',
+                    search: 'https://dmo-wus-sch.promapp.io/fullsearch',
+                    history: '/93555a16ceb24f139a6e8a40618d3f8b/Search',
+                    saveFilter: '/93555a16ceb24f139a6e8a40618d3f8b/Search/SaveFilter.aspx',
+                    resetFilter: '/93555a16ceb24f139a6e8a40618d3f8b/Search/ResetFilter.aspx'
+                },
+                true,
+                '/93555a16ceb24f139a6e8a40618d3f8b/Search/GetSearchServiceToken.aspx',
+                '2.0',
+                true
+            );
+        }
+    });
+        </script>
+
+        <script type="text/javascript">
+            var getDocumentUpdateDetailsRoute = '/93555a16ceb24f139a6e8a40618d3f8b/Documents/Edit/EditItem';
+        </script>
+
+
+        <script>
+            $(document).ready(function () {
+        // Activate accessible dropdowns
+        $(".nav-user, .nav-browse").accessibleDropDownMenu();
+    });
+
+    $.fn.accessibleDropDownMenu = function (settings) {
+
+        const $navContainer = $(this);
+        const $top_level_links = $navContainer.find('.drop-group');
+        const $drop_submenu = $(".drop-submenu");
+
+        settings = jQuery.extend({
+            isActiveClass: 'is-active',
+            keyTab: 9,
+            keyArrowRight: 39,
+            keyArrowLeft: 37,
+        }, settings);
+
+        // Adding aria-haspopup and aria-expanded for appropriate items
+        $top_level_links.each(function () {
+            if ($(this).find('ul').length > 0) {
+                $(this).attr({ "aria-haspopup": true, "aria-expanded": false });
+
+                // find submenu
+                if ($(this).find(".drop-more").length > 0) {
+                    $(this).find(".drop-more").attr({ "aria-haspopup": true, "aria-expanded": false });
+                }
+            }
+        });
+
+        $navContainer.on('focusin', '.drop-group > a', function (e) {
+            $(this)
+                .parent('.drop-group')
+                .addClass(settings.isActiveClass)
+                .attr("aria-expanded", true)
+                .siblings('.drop-group')
+                .removeClass(settings.isActiveClass)
+                .attr("aria-expanded", false);
+        });
+
+        // Hide menu if focus occurs outside of navigation
+        $navContainer.find('a:last').keydown(function (e) {
+            if (e.keyCode === settings.keyTab) {
+                // If the user tabs out of the navigation hide all menus
+                $(this)
+                    .attr('aria-expanded', false)
+                    .removeClass(settings.isActiveClass);
+                $(this)
+                    .attr('aria-expanded', false)
+                    .removeClass(settings.isActiveClass)
+                $navContainer.find('.drop-group')
+                    .removeClass(settings.isActiveClass)
+                    .attr("aria-expanded", false);
+            }
+        });
+
+        // If key is pressed while on the last link in a sub menu
+        $navContainer.on('focusin', '.drop-more > a', function (e) {
+            $(this)
+                .parent('.drop-more')
+                .addClass(settings.isActiveClass)
+                .attr("aria-expanded", true)
+                .siblings('.drop-more')
+                .removeClass(settings.isActiveClass)
+                .attr("aria-expanded", false);
+        });
+
+        // Tabbing sub menu
+        $drop_submenu.on('focusin', 'a', function (e) {
+            const $parent = $(this).parent('li');
+
+            if ($parent.is('li:last-child')) {
+                $(this).on("keydown", function () {
+                    $(this).parents('.drop-more')
+                        .attr('aria-expanded', false)
+                        .removeClass(settings.isActiveClass);
+                });
+            }
+        });
+
+        // Navigate top level links using arrow left/right keys
+        $top_level_links.on("keyup", function (e) {
+            if (e.keyCode === settings.keyArrowRight) {
+                $(this)
+                    .removeClass(settings.isActiveClass)
+                    .attr("aria-expanded", false);
+
+                // focus
+                $(this)
+                    .next('li')
+                    .find("a")
+                    .first()
+                    .focus();
+            }
+
+            if (e.keyCode === settings.keyArrowLeft) {
+                $(this)
+                    .removeClass(settings.isActiveClass)
+                    .attr("aria-expanded", false);
+                // focus
+                $(this)
+                    .prev('li')
+                    .find("a")
+                    .first()
+                    .focus();
+            }
+        });
+
+        // Hide if click occurs outside of navigation
+        $(document).click(function () {
+            $top_level_links.attr('aria-expanded', false).removeClass(settings.isActiveClass)
+        });
+    }
+        </script>
+
+        <style type='text/css'>
+            .embeddedServiceHelpButton .helpButton .uiButton {
+                background-color: #0f8fd6;
+                font-family: sans-serif;
+                font-size: 1.2em;
+            }
+
+            .embeddedServiceHelpButton .helpButton .uiButton:focus {
+                outline: 1px solid #0f8fd6;
+            }
+        </style>
+        <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+        <script type="text/javascript">
+            const salesforceChatMinimizedText = "Chat with support";
+        </script>
+
+        <script>
+            window.intercomSettings = {
+                    app_id: "kuztd9cf",
+                    user_id:"dc37f941-e5aa-4cee-9d22-4ba38bc3c0d0",
+                    name: "Jonathan Butler",
+                    email: "jonathan.butler@nintex.com",
+                    CompanyName: "Process Manager",
+                    user_hash: "4ce2421dc44b76110366550b4e7780e0450b745ca29e627a3cfe5c217de44994",
+                    promapp_tenant: "https://demo.promapp.com/93555a16ceb24f139a6e8a40618d3f8b",
+                    hide_default_launcher: !JSON.parse($.cookie("LiveChat"))
+                };
+
+                const chatSpecificOpenFunction = function () {
+                    Intercom('update', {
+                        "hide_default_launcher": false
+                    });
+                };
+
+                const chatSpecificCloseFunction = function () {
+                    Intercom('update', {
+                        "hide_default_launcher": true
+                    });
+                }
+        </script>
+        <script>
+            (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/kuztd9cf'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+        </script>
+
+        <script>
+            var BannerProps = {
+            userFullName: "Jonathan Butler",
+            userAvatarRoute: "/93555a16ceb24f139a6e8a40618d3f8b/Profile/Avatar.aspx?id=1",
+            myProfileRoute: "/93555a16ceb24f139a6e8a40618d3f8b/Profile",
+            logoutRoute: "/93555a16ceb24f139a6e8a40618d3f8b/Home/LogOff.aspx?name=Logout&amp;id=logout",
+            isMobileSiteAvailable: false,
+            isVariationsModuleOn: true,
+            isPawModuleOn: true,
+            isLogoutEnabled: true,
+            isReportingApiOn: true,
+            isRiskModuleOn: true,
+            isImprovementsModuleOn: true,
+            isTrainingModuleOn: true,
+            canSeeAutomation: true,
+            canToggleLiveChat: true,
+            promasterEmail: 'promapp-noreply@nintex.com',
+            promappSupportEmail: 'support@nintex.com',
+            doesEmailOpenInNewTab: false,
+            globalIncidentLabel: 'Wombat',
+            customTreatmentLabel: 'Controls',
+            showAnnouncements: true,
+            adminMenuItems: [{"Label":"Manage Groups","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin","SubTools":null},{"Label":"Reports","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Report","SubTools":null},{"Label":"Users","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/User","SubTools":null},{"Label":"Roles","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Role","SubTools":null},{"Label":"Systems","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Systems/List?TagFamilyId=3","SubTools":null},{"Label":"Risks","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Risk","SubTools":null},{"Label":"Improvements","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Incident","SubTools":null},{"Label":"Glossary","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Glossary","SubTools":null},{"Label":"Tags","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag","SubTools":[{"Label":"Document","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=1"},{"Label":"Incident","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=2"},{"Label":"Location","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=7"},{"Label":"Processes","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=5"},{"Label":"Team","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=8"},{"Label":"Timeframe","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=4"},{"Label":"Training","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Tag?TagFamilyId=6"}]},{"Label":"Variations","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Variation","SubTools":null},{"Label":"Training","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Training","SubTools":null},{"Label":"Models","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Models","SubTools":null},{"Label":"Capture","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/ModuleManagement/ProcessCaptureModule","SubTools":null},{"Label":"AI Process Generator","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/ModuleManagement/GenerateProcedureFromPromptModule","SubTools":null},{"Label":"Configure","url":"/93555a16ceb24f139a6e8a40618d3f8b/Admin/Configuration","SubTools":null}],
+            companyName: "Process Manager",
+            mobileDownloadPageUrl: "https://www.nintex.com/promapp-mobile",
+            nintexHelpSiteUrl: "https://help.nintex.com/en-US/promapp/Results.htm"
+        };
+
+        var tokenUrl = "/93555a16ceb24f139a6e8a40618d3f8b/Admin/Api/GetUserToken";
+        var tokenExpirySeconds = 660;
+
+            var embeddedProcessGroupUrl = "/93555a16ceb24f139a6e8a40618d3f8b/Process/Edit/SelectProcessGroup?onSuccess=EmbeddedProcessService.setEmbeddedProcessGroupUniqueId";
+                    
+        var inlineManualSettings = null;
+        
+        </script>
+
+        <script src="/93555a16ceb24f139a6e8a40618d3f8b/User/GetUserPermission.aspx"></script>
+
+        <script>
+            var beamer_config = {
+            product_id: 'dWWzFuKy12816',
+            selector : 'whatsNew',
+            filter: "version-0.0.0.0;region-demo;permission-Promaster;tenant-93555a16ceb24f139a6e8a40618d3f8b", /* Bring the news for a certain role as well as all the public news*/
+            lazy: true, /* Manually start the script by calling Beamer.init()*/
+            //---------------Visitor Information---------------//
+            // TODO: Pass a unique ID for the user
+        };
+        </script>
+        <script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
+
+    </header>
+    <!-- / header -->
+
+    <div id="main" class="main" role="main">
+
+        <div id="content" class="content panel">
+            <section id="content-holder" class="holder 
+    scroll
+    home-content-holder
+">
+                <div id="direct-content">
+                    <script type="text/javascript"
+                        src="/ClientApp/packages/promapp-client/Scripts/dist/home.bundle.e418d83a6344337f0385.js?cached=True">
+                    </script>
+
+                    <div id="welcome-holder" class="jqry-homepage-section" data-section-name="welcome">
+
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            style="position: absolute; width: 0px; height: 0px; overflow: hidden;">
+                            <defs>
+                                <symbol id="star-background" viewBox="0 0 36 34">
+                                    <path
+                                        d="M33.412 12.395l-11.842-1.021-4.628-10.904-4.628 10.92-11.842 1.005 8.993 7.791-2.701 11.579 10.179-6.144 10.179 6.144-2.685-11.579 8.976-7.791">
+                                    </path>
+                                </symbol>
+                                <symbol id="star-empty" viewBox="0 0 36 34">
+                                    <path class="path-star-empty" fill="currentColor"
+                                        d="M33.412 12.395l-11.842-1.021-4.628-10.904-4.628 10.92-11.842 1.005 8.993 7.791-2.701 11.579 10.179-6.144 10.179 6.144-2.685-11.579 8.976-7.791zM16.941 22.541l-6.193 3.739 1.647-7.049-5.468-4.744 7.214-0.626 2.8-6.638 2.816 6.654 7.214 0.626-5.468 4.744 1.647 7.049-6.209-3.755z">
+                                    </path>
+                                </symbol>
+                                <symbol id="star-half" viewBox="0 0 36 34">
+                                    <path class="path-star-half" fill="currentFill"
+                                        d="M 33.412,12.395 21.57,11.374 16.942,0.47 12.314,11.39 0.472,12.395 9.465,20.186 6.764,31.765 16.943,25.621 27.122,31.765 24.437,20.186 33.413,12.395 Z M 16.941,22.541 c 0,0 -0.297971,-14.6455833 0,-15.318 l 2.816,6.654 7.214,0.626 -5.468,4.744 1.647,7.049 z">
+                                    </path>
+                                    <path class="path-star-empty" fill="currentColor"
+                                        d="M33.412 12.395l-11.842-1.021-4.628-10.904-4.628 10.92-11.842 1.005 8.993 7.791-2.701 11.579 10.179-6.144 10.179 6.144-2.685-11.579 8.976-7.791zM16.941 22.541l-6.193 3.739 1.647-7.049-5.468-4.744 7.214-0.626 2.8-6.638 2.816 6.654 7.214 0.626-5.468 4.744 1.647 7.049-6.209-3.755z">
+                                    </path>
+                                </symbol>
+                                <symbol id="star-filled" viewBox="0 0 36 34">
+                                    <path class="path-star-filled" fill="currentFill"
+                                        d="M16.941 25.621l10.179 6.144-2.701-11.579 8.993-7.791-11.842-1.005-4.628-10.92-4.628 10.92-11.842 1.005 8.993 7.791-2.701 11.579z">
+                                    </path>
+                                    <path class="path-star-empty" fill="currentColor"
+                                        d="M33.412 12.395l-11.842-1.021-4.628-10.904-4.628 10.92-11.842 1.005 8.993 7.791-2.701 11.579 10.179-6.144 10.179 6.144-2.685-11.579 8.976-7.791zM16.941 22.541l-6.193 3.739 1.647-7.049-5.468-4.744 7.214-0.626 2.8-6.638 2.816 6.654 7.214 0.626-5.468 4.744 1.647 7.049-6.209-3.755z">
+                                    </path>
+                                </symbol>
+                            </defs>
+                        </svg>
+                        <section id="welcome" class="content-full-width pad-top-40 pad-bot-40 bg-grey-medium bg-fixed"
+                            style="background:url(/93555a16ceb24f139a6e8a40618d3f8b/Home/Background.aspx?backgroundType=Login) no-repeat; background-size:cover">
+                            <div class="wrapper wrapper--desk-max">
+                                <div class="grid">
+                                    <div class="grid__item three-fifths">
+                                        <div class="pod--search rc3 bg-blue--transparent text--pale">
+                                            <form class="pad-top-30 pad-right-20 pad-bot-30 pad-left-10 text--center">
+                                                <h2 class="mar-bot-40 gamma weight--normal jqry-welcome-message">Hi
+                                                    Jonathan, great to see you again!</h2>
+                                                <fieldset id="jqry-homepage-search"
+                                                    class="pod__form text-combo text-combo--large">
+                                                    <input id="SearchText" name="term" class="text-combo__text" type="search" placeholder="Search processes and documents" style="border: none !important;" />
+                                                    <button id="SearchButton" class="text-combo__btn iconf-magnify">
+                                <span class="visuallyhidden">Search</span>
+                            </button>
+                                                </fieldset>
+                                            </form>
+                                            <div class="text--center">
+                                                <ul class="list-inline">
+                                                    <li><a class="btn create-process-button" href="#"
+                                                            onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Process/Edit/CreateProcess&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;New Process: Select Group&quot;,&quot;pageTitle&quot;:&quot;Create a process&quot;}, null, event)">Create
+                                                            a process</a></li>
+                                                    <li><a class="btn-tool"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChanges">Go
+                                                            to Dashboard</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__item two-fifths">
+                                        <div
+                                            class="pod--user rc3 text--pale pad-top-20 pad-right-30 pad-bot-20 pad-left-30 bg-blue--transparent ">
+                                            <div class="grid">
+                                                <div class="grid__item avatar-grid-item one-half text--center">
+                                                    <div class="user user--large avatar--edit avatar--watermark">
+                                                        <a class="avatar--edit__link" href="#"
+                                                            onclick="PromappRouter.PublishDialog(this,&#39;/93555a16ceb24f139a6e8a40618d3f8b/Profile/ChangeAvatar.aspx?userId=1053&#39;,&#39;#dialog-holder&#39;, {&quot;caption&quot;:&quot;Change me...&quot;,&quot;pageTitle&quot;:&quot;Change me...&quot;}, null, event)">Change
+                                                            me...<span class="caret"></span></a> <img alt="Jonathan Butler" class="user user--large mar-bot-10 jqry-user-avatar" src="/93555a16ceb24f139a6e8a40618d3f8b/Profile/Avatar.aspx?id=1&amp;large=True" />
+                                                    </div>
+                                                    <h2 class="mar-bot-3 title--large weight--normal jqry-welcome-name">
+                                                        Jonathan Butler</h2>
+                                                    <div class="jqry-profile-role title--small">
+                                                        <strong>
+                                        [OZ] Business Direct Sales Consultant...
+                                    </strong>
+                                                    </div>
+                                                    <div class="block mar-top-5 bottom-arrow-container">
+                                                        <a href="#">
+                                                            <span class="iconf-arrow-line-down icon--20 icon--link jqry-anchor" aria-hidden="true" data-section="engagement"></span>
+                                                            <span class="visuallyhidden">View status</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="grid__item one-half details-grid-item">
+                                                    <dl class="detail--grouped jqry-profile-ownerships">
+                                                        <dt class="title--small">Champion Of</dt>
+                                                        <dd class="milli">Finance...</dd>
+                                                        <dt class="title--small">Risk Manager Of</dt>
+                                                        <dd class="milli">Finance</dd>
+                                                        <dt class="title--small">Incident Manager Of</dt>
+                                                        <dd class="milli">Network incident</dd>
+                                                    </dl>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+        $(".jqry-combined-rating").hover(function (e) {
+            $(this).closest('.jqry-rating-container').find('.jqry-rating-detail').show();
+        }, function () {
+            $(this).closest('.jqry-rating-container').find('.jqry-rating-detail').hide();
+        });
+
+        window.loadUserRelatedProcessData(
+            "/93555a16ceb24f139a6e8a40618d3f8b/Home/GetProcessInAndOwnListItems.aspx",
+            true
+        );
+    });
+                        </script>
+                    </div>
+                    <div id="dashboard-holder" class="jqry-homepage-section" data-section-name="dashboard">
+                        <section id="dashboard">
+                            <div class="wrapper wrapper--desk-max pad-top-30 pad-bot-40">
+                                <div class="grid">
+                                    <div class="grid__item one-third tabs">
+                                        <ul class="tab-list tab-big clearfix jqry-quicklisttabs">
+                                            <li>
+                                                <a class="tab selected" href="#tab-recent"
+                                                    data-quicklisttype="recents">Recently viewed</a>
+                                            </li>
+                                            <li>
+                                                <a class="tab" href="#tab-favourite"
+                                                    data-quicklisttype="favourites"><span class="ind-icon ind-star favourite-hover"></span>
+                                                    My favourites</a>
+                                            </li>
+                                            <li>
+                                                <a class="tab" href="#tab-quicklinks"
+                                                    data-quicklisttype="quicklinks"><span class="ind-icon ind-star favourite-hover"></span>
+                                                    Quick Links</a>
+                                            </li>
+                                        </ul>
+                                        <!--TODO with-icons needs to have the icons align correctly here and in the recently viewed banner menu and attachments popup in the process summary.-->
+                                        <div id="tab-recent" class="scroll height-320max jqry-tabcontent"
+                                            data-quicklisttype="recents"></div>
+                                        <div id="tab-favourite" class="scroll height-320max jqry-tabcontent"
+                                            data-quicklisttype="favourites"></div>
+                                        <div id="tab-quicklinks" class="scroll height-320max jqry-tabcontent"
+                                            data-quicklisttype="quicklinks"></div>
+                                    </div>
+                                    <div class="grid__item two-thirds">
+
+                                        <div class="grid">
+                                            <div class="grid__item one-half">
+                                                <ul>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChanges?filter=All"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-processanddocumentchanges" style="background-color: #42b997">50</span><span class="action-item__icon mar-right-10 text-default iconf-processes-changes"></span><span class="action-item__name delta bold">Process &amp; Document Changes</span></a>
+                                                    </li>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChanges"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-approvalspublishcombined" style="background-color: #f9c319">20</span><span class="action-item__icon mar-right-10 text-default iconf-tick"></span><span class="action-item__name delta bold">Approvals &amp; Publishes</span></a>
+                                                    </li>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyReviews"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-reviewscombined" style="background-color: #6295d9">253</span><span class="action-item__icon mar-right-10 text-default iconf-out-of-date-processes"></span><span class="action-item__name delta bold">Reviews</span></a>
+                                                    </li>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyChecklists"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-checklist" style="background-color: #fb6b38">3</span><span class="action-item__icon mar-right-10 text-default iconf-checklist"></span><span class="action-item__name delta bold">Checklist Activities</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="grid__item one-half">
+                                                <ul>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyFeedback"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-processsuggestions" style="background-color: #6295d9">3</span><span class="action-item__icon mar-right-10 text-default iconf-improvement-ideas"></span><span class="action-item__name delta bold">Feedback/Suggestions</span></a>
+                                                    </li>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyRisks"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-risks" style="background-color: #fb6b38">13</span><span class="action-item__icon mar-right-10 text-default iconf-umbrella"></span><span class="action-item__name delta bold">Risk Signoffs &amp; Changes</span></a>
+                                                    </li>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyIncidents"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-incidents" style="background-color: #42b997">1</span><span class="action-item__icon mar-right-10 text-default iconf-flag"></span><span class="action-item__name delta bold">Wombat</span></a>
+                                                    </li>
+                                                    <li class="action-item mar-bot-10 bg-grey rc3">
+                                                        <span class=""></span>
+                                                        <a class="action-item__label pad-left-10 text-default"
+                                                            href="/93555a16ceb24f139a6e8a40618d3f8b/Dashboard/MyTraining"><span class="action-item__value kilo center pad-top-10 pad-right-10 pad-bot-10 pad-left-10 text--pale rc3-right jqry-dashboardcount-training" style="background-color: #e9372d">7</span><span class="action-item__icon mar-right-10 text-default iconf-certificate"></span><span class="action-item__name delta bold">Training</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <script>
+                            $(function () {
+            PromappNewHomePage.InitDashboardSection({
+                LoadQuickItemListUrl: '/93555a16ceb24f139a6e8a40618d3f8b/Home/LoadQuickItems.aspx',
+                FavouritesListContainer: $("#tab-favourite"),
+                RecentListContainer: $("#tab-recent")
+            });
+        });
+                        </script>
+
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function () {
+        PromappNewHomePage.Init();
+    });
+                    </script>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- rendered just before the closing body tag -->
+    <!-- generic alert popup content -->
+
+    <div id="dialog-alert" class="dialog-view pad-bot-20 hidden" data-original-title="">
+    </div>
+
+    <!-- / generic alert popup content -->
+    <!-- generic popup -->
+    <div id="dialog-holder" class="hidden">
+    </div>
+    <!-- / generic popup -->
+    <!-- react popup -->
+    <div id="react-dialog-holder">
+    </div>
+    <div id="react-expired-session-dialog-holder">
+    </div>
+    <!-- / react popup -->
+    <!-- generic right click menu -->
+    <div id="rightclick-holder" class="drop-click drop-menu hidden">
+    </div>
+
+    <!-- / generic right click -->
+
+    <input name="__RequestVerificationToken" type="hidden" value="fQXB7HHPtDIatGKYQIl_N1tLhEb3DNUMo0MW_LGvBLMXH9hx9XPjeVqIvkN5J2CYPOmJ8dKj8ARn3DnupdQh_jAwJp876EqsenE_SbVraWkoX3bUb6Fay8_khAgXdVoDO_-peg2" />
+
+    <!-- non head javascripts -->
+    <script src="/ClientApp/packages/promapp-client/Scripts/dist/vendor.bundle.fa7046559c7834f61ca3.js?cached=True">
+    </script>
+    <script src="/ClientApp/packages/promapp-client/Scripts/dist/kendo.bundle.cd45f32e5c5932cc7cb0.js?cached=True">
+    </script>
+    <script src="/ClientApp/packages/promapp-client/Scripts/dist/plugins.bundle.9b628e9abdbfe439d589.js?cached=True">
+    </script>
+    <script src="/ClientApp/packages/promapp-client/Scripts/dist/common.bundle.820ec03c46d4c450b76c.js?cached=True">
+    </script>
+
+
+
+    <!-- Timezone sniffer -->
+    <!-- / Timezone sniffer -->
+
+
+    <!-- Munchkin (Marketo)code - dont remove! -->
+    <script>
+        //munchkin
+        $(function () {
+            $.ajax(
+                {
+                    url:
+                        '//munchkin.marketo.net/munchkin.js',
+                    dataType:
+                        'script',
+                    cache:
+                        true,
+                    success:
+                        function () {
+                            Munchkin.init('137-KKI-761');
+                        }
+                });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            extendAutocomplete();
+            PromappRouter.Rebind();
+        });
+    </script>
+
+
+
+</body>
+
+</html>
