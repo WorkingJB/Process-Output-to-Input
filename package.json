@@ -1,0 +1,21 @@
+{
+  "name": "process-output-to-input",
+  "version": "1.0.0",
+  "description": "Utilities for working with Nintex Process Manager API - encapsulating process JSON for updates",
+  "main": "encapsulateProcessJson.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "example": "node example-usage.js"
+  },
+  "keywords": [
+    "nintex",
+    "process-manager",
+    "api",
+    "encapsulation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
